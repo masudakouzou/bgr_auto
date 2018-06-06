@@ -2,7 +2,7 @@
 import logging
 
 from selenium.common.exceptions import NoSuchElementException, TimeoutException
-from src.bgrsrc import justwait
+from bgrsrc import justwait
 
 logger = logging.getLogger(__name__)
 

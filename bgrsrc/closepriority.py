@@ -1,6 +1,6 @@
 # coding: utf-8
 from selenium.common.exceptions import NoSuchElementException
-from src.bgrsrc import justwait
+from bgrsrc import justwait
 
 def close(window):
     try:

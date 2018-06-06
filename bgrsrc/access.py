@@ -1,5 +1,5 @@
 # coding: utf-8
-from src.bgrsrc import justwait
+from bgrsrc import justwait
 from selenium.common.exceptions import NoSuchElementException
 
 

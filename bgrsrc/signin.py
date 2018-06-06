@@ -2,8 +2,8 @@
 import logging
 
 from selenium.common.exceptions import NoSuchElementException
-from src.bgrsrc import justwait
-from src.bgrsrc import config
+from bgrsrc import justwait
+from bgrsrc import config
 
 
 logger = logging.getLogger(__name__)

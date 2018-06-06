@@ -1,10 +1,10 @@
 # coding: utf-8
 import logging
 
-from src.bgrsrc import closevote
-from src.bgrsrc import getImage
-from src.bgrsrc import justwait
-from src.bgrsrc import svgtimer
+from bgrsrc import closevote
+from bgrsrc import getImage
+from bgrsrc import justwait
+from bgrsrc import svgtimer
 
 
 logger = logging.getLogger(__name__)

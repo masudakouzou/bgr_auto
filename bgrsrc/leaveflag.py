@@ -1,6 +1,6 @@
 # coding: utf-8
 
-from src.bgrsrc import justwait
+from bgrsrc import justwait
 
 
 def flag(window):

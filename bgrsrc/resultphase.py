@@ -1,9 +1,9 @@
 # coding: utf-8
 from selenium.common.exceptions import NoSuchElementException
-from src.bgrsrc import phase
-from src.bgrsrc import justwait
-from src.bgrsrc import closepriority
-from src.bgrsrc import questioning
+from bgrsrc import phase
+from bgrsrc import justwait
+from bgrsrc import closepriority
+from bgrsrc import questioning
 
 
 def result(window):

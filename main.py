@@ -1,5 +1,5 @@
 # coding: utf-8
-from src.bgrsrc import start
+from bgrsrc import start
 
 
 start.init()

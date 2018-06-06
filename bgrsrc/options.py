@@ -1,7 +1,7 @@
 # coding: utf-8
 
-from src.bgrsrc import config
-from src.bgrsrc import justwait
+from bgrsrc import config
+from bgrsrc import justwait
 
 
 def setting(window):

@@ -1,11 +1,11 @@
-from src.bgrsrc import phase
-from src.bgrsrc import justwait
-from src.bgrsrc import leave
-from src.bgrsrc import createroom
-from src.bgrsrc import options
-from src.bgrsrc import enter
-from src.bgrsrc import waitphase
-from src.bgrsrc import deleteroom
+from bgrsrc import phase
+from bgrsrc import justwait
+from bgrsrc import leave
+from bgrsrc import createroom
+from bgrsrc import options
+from bgrsrc import enter
+from bgrsrc import waitphase
+from bgrsrc import deleteroom
 
 
 def isExistCSSElement(window, css):

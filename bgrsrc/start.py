@@ -3,21 +3,21 @@ import logging
 
 from selenium import webdriver
 
-from src.bgrsrc import answerphase
-from src.bgrsrc import createroom
-from src.bgrsrc import csvfiledownload
-from src.bgrsrc import deleteroom
-from src.bgrsrc import enter
-from src.bgrsrc import justwait
-from src.bgrsrc import leave
-from src.bgrsrc import leaveflag
-from src.bgrsrc import options
-from src.bgrsrc import resultphase
-from src.bgrsrc import signin
-from src.bgrsrc import votephase
-from src.bgrsrc import waitphase
-from src.bgrsrc import newroomcreate
-from src.bgrsrc import phase
+from bgrsrc import answerphase
+from bgrsrc import createroom
+from bgrsrc import csvfiledownload
+from bgrsrc import deleteroom
+from bgrsrc import enter
+from bgrsrc import justwait
+from bgrsrc import leave
+from bgrsrc import leaveflag
+from bgrsrc import options
+from bgrsrc import resultphase
+from bgrsrc import signin
+from bgrsrc import votephase
+from bgrsrc import waitphase
+from bgrsrc import newroomcreate
+from bgrsrc import phase
 
 
 logging.basicConfig(filename='test.log', format='%(levelname)s:%(message)s')

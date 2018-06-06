@@ -1,7 +1,7 @@
 # coding: utf-8
 import logging
 from selenium.common.exceptions import NoSuchElementException
-from src.bgrsrc import justwait
+from bgrsrc import justwait
 
 
 logger = logging.getLogger(__name__)

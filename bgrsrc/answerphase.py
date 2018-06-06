@@ -1,10 +1,10 @@
 # coding: utf-8
 import logging
 
-from src.bgrsrc import access
-from src.bgrsrc import closeanswer
-from src.bgrsrc import justwait
-from src.bgrsrc import svgtimer
+from bgrsrc import access
+from bgrsrc import closeanswer
+from bgrsrc import justwait
+from bgrsrc import svgtimer
 
 
 logger = logging.getLogger(__name__)

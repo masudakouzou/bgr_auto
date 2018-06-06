@@ -1,8 +1,8 @@
 # coding: utf-8
 import logging
 
-from src.bgrsrc import phase
-from src.bgrsrc import justwait
+from bgrsrc import phase
+from bgrsrc import justwait
 
 
 logger = logging.getLogger(__name__)
