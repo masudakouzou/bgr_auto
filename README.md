@@ -3,9 +3,18 @@
 # 使い方
 
 ① Python導入  
+  
 [公式](https://www.python.org/)からPython3.6.5以上をダウンロードし、インストールする  
 
-② Webdriver導入
+② selenium導入
+  
+コマンドプロンプトを開き
+```
+pip install selenium
+```
+としてseleniumをインストールする
+  
+③ Webdriver導入
 [Firefox](https://github.com/mozilla/geckodriver/releases)から  
 自分のOSに合ったgeckodriverをダウンロードし、Python36-32フォルダがある場所へ  
 geckodriver.exeを移動させる
@@ -14,7 +23,7 @@ C:\Users\（ユーザー名）\AppData\Local\Programs\Python\Python36-32\
 がデフォルト  
 ) 
 
-③ 動かす
+④ 動かす
 このツール自体を右上のDownload Zipからダウンロードして、適当なフォルダに移動させる  
 
 コマンドプロンプトで先ほどのフォルダへ移動し
