@@ -14,7 +14,8 @@ pip install selenium
 ```
 としてseleniumをインストールする
   
-③ Webdriver導入
+③ Webdriver導入  
+  
 [Firefox](https://github.com/mozilla/geckodriver/releases)から  
 自分のOSに合ったgeckodriverをダウンロードし、Python36-32フォルダがある場所へ  
 geckodriver.exeを移動させる
