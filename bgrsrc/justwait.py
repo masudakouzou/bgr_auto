@@ -8,10 +8,6 @@ from selenium.common.exceptions import NoSuchElementException, TimeoutException
 
 
 def justWait(window, timer):
-    """
-    処理を遅らせたいときに使う関数です
-    parameters => webdriver, timer(秒)
-    """
     try:
         wait = WebDriverWait(window, timer)
         wait.until(ec.presence_of_element_located((By.TAG_NAME, 'BIGIRICHAN')))
